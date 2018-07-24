@@ -436,7 +436,11 @@ Note the following important details about this process:
    Set-DefaultAWSRegion -Region us-east-2
    ```
 
-1. Download the [CreateVssSnapshotAdvancedScript\.zip](samples/CreateVssSnapshotAdvancedScript.zip) file and extract the file contents\. 
+1. Download the [CreateVssSnapshotAdvancedScript\.zip](samples/CreateVssSnapshotAdvancedScript.zip) file and extract the file contents to create snapshots for each volume\.
+
+   \-or\-
+
+   Download the [CreateVssImageAdvancedScript\.zip](samples/CreateVssImageAdvancedScript.zip) file and extract the file contents to create an AMI for the whole instance\.
 
 1. Open the script in a simple text editor, edit the sample call at the bottom of the script, and then run it\.
 
